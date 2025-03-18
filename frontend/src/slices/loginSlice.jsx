@@ -4,7 +4,7 @@ import axios from 'axios'
 export const registerUser = createAsyncThunk(
     'user/signup',
     async(userData) => {
-        const url = `https://mern-ecommerce-food-app.vercel.app/api/user/register`;
+        const url = `https://ecommercefoodapp-backend.onrender.com/api/user/register`;
         const response = await axios.post(url,userData);
         //const response = request.data;
         //localStorage.setItem('access_token', JSON.stringify(response.data.token));
@@ -18,7 +18,7 @@ export const registerUser = createAsyncThunk(
 export const loginUser = createAsyncThunk(
     'user/loginUser',
     async (userCredentials) => {
-        const url = `https://mern-ecommerce-food-app.vercel.app/api/user/login`;
+        const url = `https://ecommercefoodapp-backend.onrender.com/api/user/login`;
         const response = await axios.post(url, userCredentials);
         //const response = request.data.data;
         localStorage.setItem('user', JSON.stringify(response.data));
