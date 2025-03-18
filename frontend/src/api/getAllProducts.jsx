@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const BaseUrl='https://fakestoreapi.com'
-const BaseUrl = 'https://mern-ecommerce-food-app.vercel.app/api'
+const BaseUrl = 'https://ecommercefoodapp-backend.onrender.com'
 //https://localhost:5000/api/dishes
 export const getAllProducts = async () =>{
     //const url= `${BaseUrl}/products`;
