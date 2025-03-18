@@ -5,10 +5,8 @@ const cors = require("cors");
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://vinayaksinghal25:4Hc4sAbJ7watl1UQ@cluster0.dkhtda7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://yashb150603:yashb150603@foodcommerce.nvmgy.mongodb.net/')
   .then(() => console.log('Connected!'));
-
-console.log("hello");
 
 const app = express();
 const port = 5000;
