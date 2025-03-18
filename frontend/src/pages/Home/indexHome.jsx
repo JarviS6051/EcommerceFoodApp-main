@@ -2,7 +2,6 @@ import { Navbar } from "../../components/Navbar"
 import { useEffect, useState } from "react"
 import { getAllProducts } from "../../api/getAllProducts"
 import { ProductCard } from "../../components/ProductCard/productCard"
-import { useCart } from "../../context/cart-context"
 import { getProductsByCategory } from "../../api/getProductsByCategory"
 
 export const Home = () => {
